@@ -1,26 +1,28 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>表白网页设计模板 -</title>
+	<title>情人节专属</title>
+	<link rel="icon" href="favicon.ico" sizes="128x128">
+  <link rel="icon" href="https://raw.githubusercontent.com/jamesyangget/jamesyang/gh-pages/favicon.ico" type="image/x-icon">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style type="text/css">
 		@font-face {
 			font-family: digit;
-			src: url('digital-7_mono.ttf') format("truetype");
+			src: url('https://white-album.tk/love/digital-7_mono.ttf') format("truetype");
 		}
 	</style>
 <meta name="keywords" content="" />
-<meta name="description" content="" />	<link href="css/default.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+<meta name="description" content="" />	<link href="https://white-album.tk/love/css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="https://white-album.tk/love/js/jquery.js"></script>
+	<script type="text/javascript" src="https://white-album.tk/love/js/garden.js"></script>
+    <script type="text/javascript" src="https://white-album.tk/love/js/functions.js"></script>
 	
-	<script type="text/javascript" src="js/jq.snow.js"></script>
+	<script type="text/javascript" src="https://white-album.tk/love/js/jq.snow.js"></script>
 </head> 
 
 <body>
 <!--下面是调用方法和参数说明-->
-	<script>
+<script>
 	$(function(){
 		$.fn.snow({ 
 			minSize: 5,		//雪花的最小尺寸
@@ -117,16 +119,31 @@
 			setTimeout(function () {
 				startHeartAnimation();
 			}, 5000);
-
 			timeElapse(together);
 			setInterval(function () {
 				timeElapse(together);
 			}, 500);
-
 			adjustCodePosition();
 			$("#code").typewriter();
 		}
 	</script>
-	<embed src="http://sisiyan.sinaapp.com/Love.mp3" autostart="true" loop="true" hidden="true"></embed>
+
+	</script><div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+  </div>
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    var message_Path = 'https://raw.githubusercontent.com/jamesyangget/jamesyang/gh-pages/live2d/'
+    var home_Path = 'https://white-album.tk/jamesyang/'
+  </script>
+  <script type="text/javascript" src="https://raw.githubusercontent.com/jamesyangget/jamesyang/gh-pages/live2d/js/live2d.js"></script>
+  <script type="text/javascript" src="https://raw.githubusercontent.com/jamesyangget/jamesyang/gh-pages/live2d/js/message.js"></script>
+  <script type="text/javascript">
+    loadlive2d("live2d", "https://raw.githubusercontent.com/jamesyangget/jamesyang/gh-pages/live2d/model/kesshouban_v2/model.json");
+	</script>
+
+	<embed src="https://bmob-cdn-22716.b0.upaiyun.com/2019/02/13/86c86913400005778080c9c5e0d4a064.mp3" autostart="true" loop="true" hidden="true"></embed>
 </body>
 </html>
