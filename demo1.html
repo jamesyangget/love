@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>告白气球</title>
 		<link rel="icon" href="favicon.ico" sizes="128x128">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="https://raw.githubusercontent.com/jamesyangget/love/favicon.ico" type="image/x-icon">
 		<style type="text/css">
 		body,html{
 			width: 100%;
@@ -36,7 +36,7 @@
 			//照片
 			var n = 1;
 			var t =setInterval(function(){
-				var b = new Balloon("url(image/img"+n+".jpg)");
+				var b = new Balloon("url(https://api.imjad.cn/pixiv/v2/?type=illust&id=72273858)")       //("url(image/img"+n+".jpg)");
 				//绘制气球
 				b.drawBalloon(document.body);
 				//气球动起来
